@@ -125,3 +125,6 @@ persist.sys.binary_xml=false
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# Watchdog
+ro.hw_timeout_multiplier=3
