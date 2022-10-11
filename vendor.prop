@@ -60,6 +60,7 @@ dalvik.vm.dex2oat64.enabled=true
 # Display post-processing
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
+vendor.display.idle_time=32767
 
 # Dirac
 ro.audio.soundfx.dirac=true
