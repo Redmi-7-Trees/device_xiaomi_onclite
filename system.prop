@@ -128,3 +128,7 @@ debug.cpurend.vsync=false
 
 # Watchdog
 ro.hw_timeout_multiplier=3
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
