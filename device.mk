@@ -482,4 +482,7 @@ TARGET_VNDK_USE_CORE_VARIANT := true
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
-    NexusLauncherRelease
+    NexusLauncherRelease \
+    lawnchair \
+    Settings \
+    Launcher3QuickStep
