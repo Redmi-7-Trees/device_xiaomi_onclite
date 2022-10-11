@@ -461,4 +461,7 @@
          the blur effect where it isn't worth the performance hit.
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 </resources>
