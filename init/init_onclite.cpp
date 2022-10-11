@@ -126,4 +126,7 @@ void vendor_load_properties()
     // SafetyNet Workaround
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.oem_unlock_supported", "0");
+
+    // Misc
+    property_override("ro.apex.updatable", "false");
 }
