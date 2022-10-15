@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2023 The ArrowOS Project
+# Copyright (C) 2022-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,18 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# ArrowOS Stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
-ARROW_GAPPS := false
+# LineageOS Stuff
+WITH_GMS := false
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_onclite
+PRODUCT_NAME := lineage_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
